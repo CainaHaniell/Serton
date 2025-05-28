@@ -116,6 +116,7 @@ content {
 }
 
 .form {
+  /* //////////////////////////////////// */
   border-radius: 10px;
   padding: 25px;
   font-size: 18px;
@@ -153,12 +154,12 @@ content {
   padding-bottom: 10px;
 }
 .background {
-  background-color: #f4f4f4;
+  background-color: floralwhite;
   padding-bottom: 70px;
 }
 .selection-categoria {
   font-size: 27px;
-  margin-left: 109px;
+  margin-left: 75px;
   color: #023047;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -168,13 +169,14 @@ content {
   display: flex;
   justify-content: center;
   gap: 80px;
-  padding: 2%;
+  
 }
 .produtos {
   text-align: center;
   color: #333333;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
+  
 }
 .section-header {
   display: flex;
@@ -213,13 +215,16 @@ content {
   justify-content: space-between;
   margin: 90px;
   margin-top: 50px;
+  gap: 90px;
 }
 .card {
-  background-color: #fffdfd;
+  box-shadow: 0px 0px 10px rgb(199, 198, 198);
   width: 361px;
   height: 375px;
   margin: 0 auto;
   border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .card-image {
   border-radius: 10px;
@@ -240,4 +245,50 @@ content {
   align-items: center; /* pra alinhar a imagem e o texto */
   gap: 10px;
   color: #333333;
+}
+
+.footer{
+  display: flex;
+
+}
+.footer-text{
+color: #333333;
+font-size: 16px;
+margin-left: 400px;
+font-family: "Poppins", sans-serif;
+margin-right: 200px;
+}
+.icons{
+
+  margin-left: 10px;
+  display: flex;
+  gap: 60px;
+  margin-left: 400px;
+}
+.sobre{
+  margin-right: 300px;
+}
+.novidade{
+  font-size: 20px;
+  color: #333333;
+  font-family: "Poppins", sans-serif;
+
+}
+
+input{
+  padding: 20px 100px;
+  border-radius: 5px;
+  border: 1.5px solid rgb(173, 173, 173)
+}
+.botao{
+  background-color: #023047;
+  color: #ccc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  width: 100px;
+  border-radius: 10px;
+  margin-left: 400px;
+
 }
