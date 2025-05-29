@@ -1,5 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
+   margin: 0;
 }
 
 .icon_action {
@@ -169,14 +170,12 @@ content {
   display: flex;
   justify-content: center;
   gap: 80px;
-  
 }
 .produtos {
   text-align: center;
   color: #333333;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  
 }
 .section-header {
   display: flex;
@@ -247,40 +246,37 @@ content {
   color: #333333;
 }
 
-.footer{
+.footer {
   display: flex;
-
 }
-.footer-text{
-color: #333333;
-font-size: 16px;
-margin-left: 400px;
-font-family: "Poppins", sans-serif;
-margin-right: 200px;
+.footer-text {
+  color: #333333;
+  font-size: 16px;
+  margin-left: 300px;
+  font-family: "Poppins", sans-serif;
+  margin-right: 150px;
 }
-.icons{
-
+.icons {
   margin-left: 10px;
   display: flex;
   gap: 60px;
-  margin-left: 400px;
+  margin-left: 300px;
 }
-.sobre{
+.sobre {
   margin-right: 300px;
 }
-.novidade{
+.novidade {
   font-size: 20px;
   color: #333333;
   font-family: "Poppins", sans-serif;
-
 }
 
-input{
+input {
   padding: 20px 100px;
   border-radius: 5px;
-  border: 1.5px solid rgb(173, 173, 173)
+  border: 1.5px solid rgb(173, 173, 173);
 }
-.botao{
+.botao {
   background-color: #023047;
   color: #ccc;
   display: flex;
@@ -290,5 +286,11 @@ input{
   width: 100px;
   border-radius: 10px;
   margin-left: 400px;
-
+}
+.footer-cor {
+  background-color: #023047 ;
+height: 72px;
+  text-align: center;
+  width: 100%;
+  margin-top: 50px;
 }
